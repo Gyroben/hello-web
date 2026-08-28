@@ -28,7 +28,7 @@ $pageTitle = 'Login';
 require 'partials/header.php';
 ?>
 <div class="auth-card">
-<h1>test234</h1>
+<h1>login</h1>
 <?php if ($error): ?><p class="alert alert-error"><?= htmlspecialchars($error) ?></p><?php endif; ?>
 <form method="post">
 <label>Email <span class="required-mark">*</span> <input type="email" name="email" required></label>
